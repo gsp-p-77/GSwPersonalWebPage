@@ -8,7 +8,10 @@ Server with running docker engine
 ### Build and run container
 - clone and cd into repository
 - docker build -t web-page .
-- docker run -d -p 80:3000 web-page
+- To run docker container just in current power on:
+  - docker run -d -p 80:3000 web-page
+- To run docker container always at every power up
+  - docker run --restart always -d -p 80:3000 web-page
 
 ### Open web page
 Use browser and open the web page, use IP of your server
