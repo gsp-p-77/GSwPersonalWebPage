@@ -1,9 +1,8 @@
 # GSwPersonalWebPage
 My personal web page (just started, to be continued soon)
 
-## Recommended prerequisitesa
-a) docker engine
-b) Heroku
+## Recommended prerequisites
+Server with running docker engine
 
 ## Usage with docker engine
 ### Build and run container
