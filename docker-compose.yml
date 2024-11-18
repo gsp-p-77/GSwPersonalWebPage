@@ -1,0 +1,15 @@
+version: '3.9' # Use the latest compose file format
+
+services:
+  app:
+    build:
+      context: . # Use the current directory as the build context
+      dockerfile: Containerfile # Specify your Containerfile
+    ports:
+      - "3000:3000" # Map port 3000 on the host to port 3000 in the container
+    volumes:
+      - .:/usr/src/app # Mount the current directory to the container for live updates (optional)
+    environment:
+      # Add any required environment variables here, e.g.:
+      # NODE_ENV: production
+    command: ["node", "index.js"] # Override if needed
