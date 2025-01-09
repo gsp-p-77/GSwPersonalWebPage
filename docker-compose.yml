@@ -1,5 +1,3 @@
-version: '3.9' # Use the latest compose file format
-
 services:
   app:
     build:
