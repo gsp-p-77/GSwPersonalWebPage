@@ -53,7 +53,10 @@ form {
   box-sizing: border-box;
   outline: 0;
 }
-
+.left-aligned
+{
+  text-align: left;
+}
 .feedback-input:focus {
   border: 2px solid #3586ff;
 }

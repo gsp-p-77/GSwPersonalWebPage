@@ -10,8 +10,12 @@ app.get("/", (req, res) => {
   res.render("index.ejs");
 });
 
-app.get("/about", (req, res) => {
-  res.render("about.ejs");
+app.get("/webapplications", (req, res) => {
+  res.render("web-applications.ejs");
+});
+
+app.get("/aboutme", (req, res) => {
+  res.render("aboutme.ejs");
 });
 
 app.get("/contact", (req, res) => {
